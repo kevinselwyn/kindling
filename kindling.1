@@ -1,0 +1,75 @@
+.TH "KINDLING" "1" "May 2015" "" "Kindling Manual"
+.SH "NAME"
+\fBkindling\fR \- Tinder CLI
+.SH SYNOPSIS
+.P
+.RS 2
+.nf
+kindling [-f,--facebook_token] "<token>"
+         [-a,--auth]
+         [-h,--help]
+.fi
+.RE
+.SH DESCRIPTION
+.P
+Use \fBkindling --auth\fR to retrieve the URL for the Tinder access_token.
+.P
+Place the token in \fB~/.kindling\fR or pass it as \fB--facebook_token\fR on the command line.
+.P
+Valid tokens are placed in the dotfile by default.
+.RE
+.SH OPTIONS
+--facebook_token <token>
+.RS 2
+.nf
+  Provides the Facebook access token
+
+.fi
+.RE
+--auth
+.RS 2
+.nf
+  Prints the Facebook auth token URL
+
+.fi
+.RE
+--help
+.RS 2
+.nf
+  Prints the usage message
+.fi
+.RE
+.SH CONTROLS
+RIGHT ARROW
+.RS 2
+.nf
+  Like match
+
+.fi
+.RE
+LEFT ARROW
+.RS 2
+.nf
+  Pass match
+
+.fi
+.RE
+SPACE
+.RS 2
+.nf
+  Toggle bio
+
+.fi
+.RE
+q
+.RS 2
+.nf
+  Quit program
+.fi
+.RE
+.SH ACKNOWLEDGEMENTS
+.P
+Shameless ripoff of \fBPyre\fR that was developed at the \fB2015 Stupid Shit No One Needs & Terrible Ideas Hackathon\fR.
+.P
+All rights reserved by Tinder, Inc. who are totally unaffiliated with this project.
+.RE
