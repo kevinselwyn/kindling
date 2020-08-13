@@ -1,12 +1,14 @@
-#kindling
+> :warning: There is no guarantee this program will work with the new/updated API.
+
+# kindling
 
 Tinder CLI
 
-##Explanation
+## Explanation
 
 This program is a CLI (command-line interface) for Tinder. Images render as ASCII and the only functionality available is liking or passing on matches and viewing their bios.
 
-##Installation
+## Installation
 
 ```bash
 make && sudo make install
@@ -14,7 +16,7 @@ make && sudo make install
 
 Note: depends on ncurses, jansson, libcurl, and libjpeg
 
-##Usage
+## Usage
 
 ```bash
 Usage: kindling [-f,--facebook_token] "<token>"
@@ -30,7 +32,7 @@ kindling --auth
 
 This token may be passed using the `--facebook_token` flag or placed in `~/.kindling` for easy access. Valid tokens are placed in the dotfile automatically.
 
-##Controls
+## Controls
 
 | Key           | Action         |
 |---------------|----------------|
@@ -39,14 +41,14 @@ This token may be passed using the `--facebook_token` flag or placed in `~/.kind
 | `SPACE`       | Toggle bio     |
 | `q`           | Quit program   |
 
-##Screenshots
+## Screenshots
 
 ![Recommendation](screenshots/01.png)
 ![Bio](screenshots/02.png)
 ![Like](screenshots/03.png)
 ![Pass](screenshots/04.png)
 
-##Acknowledgements
+## Acknowledgements
 
 Shameless ripoff of [Pyre](https://github.com/zachlatta/pyre) that was developed at the [2015 Stupid Shit No One Needs & Terrible Ideas Hackathon](https://stupidhackathon.github.io/).
 
